@@ -1,15 +1,43 @@
 .conteudo{
+    width: 90%;
+    max-width: 90%; 
+    height: auto;
     display: flex;
-    flex-wrap: font-wrap;
-    max-width: 800px;
-    margin: 0 auto;
- }
-.conteudo >div img{
-    max-width: 100%;
-    display: block;
- }
-.conteudo >div{
+    flex-wrap: wrap;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 25px;
+}
+.conteudo > div{
+    text-align: center;
+    border: 3px solid #000f94;
+    border-radius: 5px 40px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px;
- }
+    background-color: #34a2fc;
+}
+
+.conteudo >div h2{
+    margin: 15px 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.conteudo >div img{
+    width: 250px;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteudo >div figcaption{
+    color: #fff;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
