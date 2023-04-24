@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #34a2fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    width: 40px;
+    max-width: 40px;
+    display: block;
+}
+
+.footer nav{
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
