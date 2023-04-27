@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    border-top: 3px solid #000f94;
 }
 
 .footer img{
@@ -20,3 +21,9 @@
     align-self: center;
     justify-content: space-between;
 }
+
+.footer h2{
+  color: #000f94;
+}
+
+
